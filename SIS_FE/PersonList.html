@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Admin</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <!-- <link
+            type="text/css"
+            href="./bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+        /> -->
+        <link
+            type="text/css"
+            href="./bootstrap/css/bootstrap-responsive.min.css"
+            rel="stylesheet"
+        />
+        <link type="text/css" href="./css/theme.css" rel="stylesheet" />
+        <link
+            type="text/css"
+            href="./images/icons/css/font-awesome.css"
+            rel="stylesheet"
+        />
+        <link
+            type="text/css"
+            href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600"
+            rel="stylesheet"
+        />
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a
+                        class="btn btn-navbar"
+                        data-toggle="collapse"
+                        data-target=".navbar-inverse-collapse"
+                    >
+                        <i class="icon-reorder shaded"></i> </a
+                    ><a class="brand" href="/">Admin </a>
+                    <div class="nav-collapse collapse navbar-inverse-collapse">
+                        <ul class="nav nav-icons">
+                            <li class="active">
+                                <a href="#"><i class="icon-envelope"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="icon-eye-open"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="icon-bar-chart"></i></a>
+                            </li>
+                        </ul>
+                        <form
+                            class="navbar-search pull-left input-append"
+                            action="#"
+                        >
+                            <input type="text" class="span3" />
+                            <button class="btn" type="button">
+                                <i class="icon-search"></i>
+                            </button>
+                        </form>
+                        <ul class="nav pull-right">
+                            <li class="nav-user dropdown">
+                                <a
+                                    href="#"
+                                    class="dropdown-toggle"
+                                    data-toggle="dropdown"
+                                >
+                                    <img
+                                        src="/images/user.png"
+                                        class="nav-avatar"
+                                    />
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Your Profile</a></li>
+                                    <li><a href="#">Edit Profile</a></li>
+                                    <li><a href="#">Account Settings</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.nav-collapse -->
+                </div>
+            </div>
+            <!-- /navbar-inner -->
+        </div>
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="12">
+                        <div class="sidebar">
+                            <ul class="widget widget-menu unstyled">
+                                <li class="active">
+                                    <a href="/">
+                                        <i class="menu-icon icon-dashboard"></i
+                                        >Dashboard
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./PersonList.html"
+                                        ><i class="menu-icon icon-bullhorn"></i
+                                        >Personal List
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/BenefitPlans">
+                                        <i class="menu-icon icon-tasks"></i
+                                        >Benefit Plans
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/JobHistory">
+                                        <i class="menu-icon icon-inbox"></i>Job
+                                        History
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="widget widget-menu unstyled">
+                                <li>
+                                    <a
+                                        class="collapsed"
+                                        data-toggle="collapse"
+                                        href="#togglePages"
+                                    >
+                                        <i class="menu-icon icon-cog"> </i
+                                        ><i
+                                            class="icon-chevron-down pull-right"
+                                        ></i
+                                        ><i class="icon-chevron-up pull-right">
+                                        </i
+                                        >More Pages
+                                    </a>
+                                    <ul
+                                        id="togglePages"
+                                        class="collapse unstyled"
+                                    >
+                                        <li>
+                                            <a href="#"
+                                                ><i class="icon-inbox"></i>Login
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                ><i class="icon-inbox"></i
+                                                >Profile
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                ><i class="icon-inbox"></i>All
+                                                Users
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        ><i class="menu-icon icon-signout"></i
+                                        >Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/.sidebar-->
+                    </div>
+                    <!--/.span3-->
+                    <div class="span12">
+                        <div class="module">
+                            <div class="module-head">
+                                <h3>
+                                    Personals -
+                                    <a href="./CreateBoth.html">Create New</a>
+                                </h3>
+                            </div>
+                            <div class="module-body table table-bordered">
+                                <table
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="datatable-1 display"
+                                    width="100%"
+                                    id="data"
+                                ></table>
+                            </div>
+                        </div>
+                        <nav aria-label="Page navigation example ">
+                            <p>
+                                Show <b id="current-persons"></b> person in
+                                <b id="total-size"></b> persons
+                            </p>
+
+                            <ul
+                                class="pagination d-flex"
+                                style="
+                                    justify-content: flex-end;
+                                    column-gap: 20px;
+                                "
+                            >
+                                <li
+                                    id="previousPage"
+                                    class="page-item"
+                                    style="
+                                        list-style: none;
+                                        background: #fff;
+                                        padding: 10px;
+                                        border-radius: 10px;
+                                        text-align: center;
+                                    "
+                                >
+                                    <a
+                                        class="page-link btn btn-secondary"
+                                        aria-label="Previous"
+                                    >
+                                        <span aria-hidden="true">&laquo;</span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                </li>
+                                <li
+                                    id="nextPage"
+                                    class="page-item"
+                                    style="
+                                        list-style: none;
+                                        background: #fff;
+                                        padding: 10px;
+                                        border-radius: 10px;
+                                        text-align: center;
+                                    "
+                                >
+                                    <a
+                                        class="page-link btn btn-secondary"
+                                        aria-label="Next"
+                                    >
+                                        <span aria-hidden="true">&raquo;</span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!--/.module-->
+
+                        <!--/.content-->
+                    </div>
+                    <!--/.span9-->
+                </div>
+            </div>
+
+            <!-- Real time modal -->
+            <div
+                class="modal fade"
+                id="realtimeModal"
+                tabindex="-1"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="tlName">Thêm mới</h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body">
+                            Phát hiện đã thêm mới 1 person tên là
+                            <span
+                                class="text-success"
+                                id="realtime-fullname"
+                            ></span
+                            >?
+                            <input type="hidden" name="id" id="delId" />
+                        </div>
+                        <div class="modal-footer">
+                            <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-bs-dismiss="modal"
+                            >
+                                Cancel
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Delete modal -->
+            <div
+                class="modal fade"
+                id="deleteModal"
+                tabindex="-1"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="tlName">
+                                Delete Person
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body">
+                            Bạn có chắc là muốn xóa person có tên là
+                            <span
+                                class="text-success"
+                                id="delete-fullname"
+                            ></span>
+                        </div>
+                        <div class="modal-footer">
+                            <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-bs-dismiss="modal"
+                            >
+                                Cancel
+                            </button>
+                            <button
+                                type="button"
+                                id="confirmDeleteBtn"
+                                class="btn btn-danger"
+                            >
+                                Delete
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.container-->
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <b class="copyright">&copy; 2014 Admin - DaoNguyen </b>All
+                rights reserved.
+            </div>
+        </div>
+
+        <script
+            src="/Scripts/jquery-1.9.1.min.js"
+            type="text/javascript"
+        ></script>
+        <script
+            src="/Scripts/jquery-ui-1.10.1.custom.min.js"
+            type="text/javascript"
+        ></script>
+        <script
+            src="/bootstrap/js/bootstrap.min.js"
+            type="text/javascript"
+        ></script>
+        <script
+            src="/Scripts/flot/jquery.flot.js"
+            type="text/javascript"
+        ></script>
+        <script
+            src="/Scripts/flot/jquery.flot.resize.js"
+            type="text/javascript"
+        ></script>
+        <script
+            src="/Scripts/datatables/jquery.dataTables.js"
+            type="text/javascript"
+        ></script>
+        <script src="/Scripts/common.js" type="text/javascript"></script>
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+        <script type="module" src="./js/person.js"></script>
+    </body>
+</html>
