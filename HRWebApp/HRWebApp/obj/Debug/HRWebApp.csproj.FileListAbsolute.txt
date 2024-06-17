@@ -20,43 +20,25 @@ c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\Entit
 c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.dll
 c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\EntityFramework.xml
 c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\HRWebApp.dll.config
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\HRWebApp.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\HRWebApp.pdb
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\EntityFramework.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\NaCl.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\Newtonsoft.Json.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\PusherServer.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Buffers.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Memory.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Numerics.Vectors.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.ValueTuple.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Web.Helpers.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Web.Mvc.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Web.Razor.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Web.Webpages.Deployment.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Web.Webpages.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Web.Webpages.Razor.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\EntityFramework.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\NaCl.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\Newtonsoft.Json.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Buffers.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Memory.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Numerics.Vectors.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.ValueTuple.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Web.Razor.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Web.Webpages.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Web.Webpages.Deployment.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Web.Webpages.Razor.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Web.Helpers.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\bin\System.Web.Mvc.xml
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\obj\Debug\HRWebApp.csproj.AssemblyReference.cache
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\obj\Debug\HRWebApp.csproj.CoreCompileInputs.cache
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\obj\Debug\HRWebApp.csproj.Up2Date
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\obj\Debug\HRWebApp.dll
-C:\Users\nguye\OneDrive\Desktop\HRWebApp\HRWebApp\obj\Debug\HRWebApp.pdb
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\HRWebApp.dll.config
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\HRWebApp.dll
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\HRWebApp.pdb
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\EntityFramework.dll
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.dll
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Helpers.dll
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Mvc.dll
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Razor.dll
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Webpages.Deployment.dll
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Webpages.dll
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Webpages.Razor.dll
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\EntityFramework.xml
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.xml
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Razor.xml
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Webpages.xml
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Webpages.Deployment.xml
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Webpages.Razor.xml
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Helpers.xml
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Mvc.xml
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\obj\Debug\HRWebApp.csprojResolveAssemblyReference.cache
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\obj\Debug\HRWebApp.dll
+E:\Anhdao\DTQT\Giao trinh\Software Intergration Practices\Material\5.Case study\Apps\HRWebApp\HRWebApp\HRWebApp\obj\Debug\HRWebApp.pdb
